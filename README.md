@@ -77,7 +77,7 @@ Note: You can limit maximum concurrent downloads by changing the value of MAX_CO
 - Search for Drive and enable it if it is disabled
 - Finally, run the script to generate token file (token.pickle) for Google Drive:
 ```
-pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip3 install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 python3 generate_drive_token.py
 ```
 ## Deploying
